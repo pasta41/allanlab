@@ -56,7 +56,7 @@ permalink: /publications/
 ## Full List
 
 {% for publi in site.data.publist %}
-
+  <hr class="rounded">
   <b>{{ publi.title }}</b> <br />
   <p style="color: #F8981D"><b>{{publi.award}}</b></p>
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
